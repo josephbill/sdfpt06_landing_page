@@ -40,3 +40,13 @@ keyways
      c. element name : this will style all elements with the same name by grouping those elements if they do not have styled classes or ids. 
 
 3. External styling - using external stylesheet by linking to the stylesheet documents  
+
+
+## API's (Application Programming Interface) :  is a set of rules that allows different software applications to communicate with each other.
+Customer(application : what user uses)             Waiter(API)               Kitchen(server infrastructure) 
+request (customer picking item from menu )        takes request to kitchen->    prep the request 
+                                                  <-takes the response back     gives back to app                                response to waiter
+
+Data is normally shared to and from in the JSON format 
+JSON : javascript object notation
+: lightweight data format that makes it easier to share data btw software applications
